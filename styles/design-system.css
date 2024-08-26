@@ -1,0 +1,71 @@
+@import "./global.css";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    /* Orqa fon rangi */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+
+
+.header {
+    background-color: rgba(231, 129, 107, 1);
+    background-image: radial-gradient(circle at 20% 20%, rgba(93, 2, 2, 0), rgba(93, 2, 2, 0.5));
+    padding: 40px 0;
+    border-radius: 0 0 30px 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.logo span {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26.88px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.tagline {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21.68px;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* main */
+main {
+    flex-grow: 1;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+main h2 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    text-transform: uppercase;
+
+}

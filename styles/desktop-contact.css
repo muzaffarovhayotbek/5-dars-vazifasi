@@ -1,0 +1,74 @@
+@import "./global.css";
+
+header {
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_container h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26.88px;
+}
+
+.header_container .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 42px;
+}
+
+.footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 40px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #444444;
+}
+
+.footer-logo img {
+    height: 40px;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 16px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 20px;
+}
+
+.footer-info, .footer-contact {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.footer-social a {
+    margin-right: 15px;
+}
+
+.footer-social img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-social img:hover {
+    transform: rotate(20deg);
+}

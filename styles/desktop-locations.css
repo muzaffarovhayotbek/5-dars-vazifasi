@@ -1,0 +1,59 @@
+@import "./global.css";
+
+.header {
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_container h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26.88px;
+}
+
+.header_container .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 42px;
+}
+
+/* header end */
+
+.main__container {
+    width: 730px;
+    height: 326px;
+    display: flex;
+    background-color: rgba(253, 243, 240, 1);
+    gap: 55px;
+}
+
+.main__container h2 {
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    color: rgba(231, 129, 107, 1);
+    margin-bottom: 24px;
+}
+
+.main__container h3 {
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.main__container h4 {
+    padding: 20px;
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+/* main */

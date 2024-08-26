@@ -1,0 +1,53 @@
+@import "./global.css";
+.header__container h2{
+font-size: 24px;
+font-weight: 700;
+line-height: 26.88px;
+color: rgba(51, 49, 54, 1);
+}
+
+.header{
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__container .nav-ul{
+    list-style: none;
+    display: flex;
+    gap: 42px;
+}
+/* header end */
+
+/* main */
+.main{
+    margin-bottom: 160px;
+}
+.main__container{
+    width: 1440px;
+height: 200px;
+background-color: rgba(231, 129, 107, 1);
+}
+
+.main__container h2{
+    padding: 20px;
+font-size: 48px;
+font-weight: 500;
+line-height: 48px;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+
+}
+
+.main__container p{
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+color: rgba(255, 255, 255);
+
+}

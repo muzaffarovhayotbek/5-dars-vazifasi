@@ -1,0 +1,91 @@
+@import "./global.css";
+
+.header {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__container .logo a {
+  text-decoration: none;
+  color: rgba(51, 49, 54, 1);
+}
+
+.header__container .nav-list {
+  list-style: none;
+  display: flex;
+  gap: 42px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  color: rgba(51, 49, 54, 1);
+}
+
+/* header end */
+
+/* main */
+.main {
+  margin-top: 64px;
+  margin-bottom: 160px;
+}
+
+.main__container {
+  width: 1440px;
+  height: 200px;
+  background-color: rgba(231, 129, 107, 1);
+  border-radius: 15px;
+}
+
+.main__container h2 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 48px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  padding: 30px;
+
+}
+
+.main__container p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* main end */
+
+/* footer */
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1440px;
+  height: 200px;
+  background-color: rgba(29, 28, 30, 1);
+}
+
+
+.footer__container h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26.88px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer__container .link-ul {
+  list-style: none;
+  display: flex;
+  gap: 42px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
