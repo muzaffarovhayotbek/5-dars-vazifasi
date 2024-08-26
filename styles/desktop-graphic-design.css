@@ -1,3 +1,4 @@
+@import "./fonts.css";
 @import "./global.css";
 .header__container h2{
 font-size: 24px;
